@@ -10,4 +10,14 @@
                  android:layout_centerInParent="true"
                  android:layout_height="wrap_content"/>
 
+    <ProgressBar android:layout_width="200dp"
+                 android:layout_below="@+id/progress_bar"
+                 android:id="@+id/progress_bar_linear"
+                 android:visibility="gone"
+                 android:indeterminate="false"
+                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                 app:theme="@style/ProgressBarTheme"
+                 android:layout_centerInParent="true"
+                 android:layout_height="wrap_content"/>
+
 </RelativeLayout>
